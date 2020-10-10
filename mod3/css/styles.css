@@ -1,3 +1,10 @@
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-right: auto;
+	
+}
 body{
 	background-color: #ffccff;
 }
@@ -63,18 +70,27 @@ li{
 	width: 100%;
 
 }
-.info{
+
+
+#Chicken, #beef, #sushi{
+height: 700px;
+	background-color: #00e673;
+	width: 100%;	
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding:10px;
+}
+/*.f{
 	height: 1000px;
 	background-color: #00e673;
-	margin-bottom: 40px;
-	margin-top: 40px;
-}
+	
+}*/
 .topic h2{
 	color:#0000ff; 
 }
-#topicmain{
+.first{
 	font-weight: bold;
-	font-size: 20px;
+	
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 
