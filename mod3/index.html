@@ -1,9 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>hello</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Restaurant</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-hello
+<header>
+	<nav id="header-nav" class="navbar navbar-default navbar-expand-lg navbar-light">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<div class="navbar-brand">
+					<a href="index.html">
+					<h1>Food, LLC</h1></a>
+				</div>
+				
+				<button type="button" class="navbar-toggler collapsed d-md-none" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">  
+					
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+			</div>
+			<div id="collapsable-nav" class="collpase navbar-collapse">
+				<ul id="nav-list" class="nav navbar-nav navbar-right d-md-none">
+					<li>Chicken</li>
+					<li>Beef</li>
+					<li>Soup</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	
+		<div class="topic text-center">
+			<p><h2>Our Menu</h2></p>
+		</div>
+		<div id="main-content" class="container">
+		<div class="info col-xs-12">
+			<p id="topicmain"class="text-center">Chicken</p>
+			<p>Create a single really tall section that will use the Bootstrap Grid and take up the entire width of the browser window (minus some margins, of course) for all views: desktop, tablet, and mobile. To make the section really tall, you can either fill it out with a LOT of text or simply set its height to something like 1000px. It needs to be tall enough to cause scrolling down to be required to view the bottom of the section. Make sure its background color is set to distinguish it from the rest of the content. (Hint: don't forget to have an element with a class='container' or class='container-fluid' wrapping your grid. Remember that to have the grid do something "always", i.e., no matter what browser window size, use the col-xs-... classes. In this case, since we want the section to take up the entire row, use col-xs-12.)</p>
+		</div>
+	</div>
+</header>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!--<script src="js/script.js"></script>-->
 </body>
 </html>
