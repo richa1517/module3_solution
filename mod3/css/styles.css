@@ -70,10 +70,14 @@ li{
 	width: 100%;
 
 }
-
+.row{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 #Chicken, #beef, #sushi{
-height: 700px;
+	height: 700px;
 	background-color: #00e673;
 	width: 100%;	
 	margin-top: 40px;
